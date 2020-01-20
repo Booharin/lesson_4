@@ -18,5 +18,5 @@ def getIterators(start_number, my_string):
             f += 1
 
 
-number, string = argv
-getIterators(number, string)
+_, number, string = argv
+getIterators(int(number), string)
